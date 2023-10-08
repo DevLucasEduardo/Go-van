@@ -8,15 +8,15 @@ interface Vehicle {
 
 const Card = (props: Vehicle) => {
   return (
-    <div className="border p-10 rounded-md flex-1">
-      <div className=" flex flex-col ">
+    <button className="border h-64 px-14 rounded-md flex-1">
+      <div className=" flex flex-col gap-2">
         <h1 className="font-bold w-36">{props.name}</h1>
-        <ul>
+        <ul className="gap-2 flex flex-col">
           <li>{props.type}</li>
           <li>{props.destiny}</li>
         </ul>
       </div>
-    </div>
+    </button>
   );
 };
 
