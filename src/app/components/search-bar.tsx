@@ -16,6 +16,12 @@ const SearchBar = (props: Search) => {
     props.sendSearchBarInfo(data);
   };
 
+  const handleEnter = (event: any) => {
+    if (event.key === "Enter") {
+      props.sendSearchBarInfo(data);
+    }
+  };
+
   return (
     <div className="flex justify-center mt-16">
       <div className="w-80 relative">
@@ -24,9 +30,10 @@ const SearchBar = (props: Search) => {
           placeholder={props.placeholder}
           className="placeholder-italic placeholder-text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-10 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
           onChange={handleChange}
+          onKeyDown={handleEnter}
         />
         <button
-          className=" absolute top-0 h-full right-0 p-1 bg-inherit rounded-md"
+          className="absolute top-0 right-0 h-full p-1 bg-inherit rounded-md"
           onClick={handleClick}
         >
           <svg
