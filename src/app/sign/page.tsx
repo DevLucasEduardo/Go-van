@@ -1,5 +1,5 @@
 import Form from "../components/form";
-import Button from "../components/link";
+import Button from "../components/button";
 export default function Find() {
   return (
     <div className="flex justify-center">

@@ -1,4 +1,4 @@
-import Button from "./components/link";
+import Button from "./components/button";
 import Image from "next/image";
 import van from "./public/images/van.jpg";
 export default function Home() {
