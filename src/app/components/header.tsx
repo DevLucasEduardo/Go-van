@@ -9,7 +9,7 @@ export default function Header() {
         </Link>
         <nav>
           <ul>
-            <Button label="Login" href="/find" px="px-10" />
+            <Button label="Login" href="/sign" px="px-10" />
           </ul>
         </nav>
       </div>
