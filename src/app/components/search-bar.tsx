@@ -26,7 +26,7 @@ const SearchBar = (props: Search) => {
           onChange={handleChange}
         />
         <button
-          className="bg-zinc-50 absolute top-0.5 right-1 h-8.5 p-1 bg-inherit"
+          className=" absolute top-0 h-full right-0 p-1 bg-inherit rounded-md"
           onClick={handleClick}
         >
           <svg
