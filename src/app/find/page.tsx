@@ -49,7 +49,7 @@ export default function SignIn() {
       />
 
       {filteredCards.length === 0 && (
-        <p className="text-center pt-10 pb-32"> {noVehiclesFound} </p>
+        <p className="text-center pt-10 pb-44"> {noVehiclesFound} </p>
       )}
 
       <div className="flex max-w-screen-xl mx-auto mt-20 flex-wrap justify-center">

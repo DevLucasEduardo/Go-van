@@ -4,9 +4,9 @@ import van from "./public/images/van.jpg";
 export default function Home() {
   return (
     <>
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <section className="flex justify-center font-bold text-7xl">
-          <h1 className="w-5/6 text-center my-20">
+          <h1 className="w-9/12 text-center mb-20">
             Mobilidade Inteligente com VanGo
           </h1>
         </section>
