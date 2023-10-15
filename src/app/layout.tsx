@@ -1,9 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Source_Serif_4 } from "next/font/google";
 import Header from "./components/header";
 import Footer from "./components/footer";
-const inter = Inter({ subsets: ["latin"] });
+const source_Serif_4 = Source_Serif_4({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,9 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={source_Serif_4.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
