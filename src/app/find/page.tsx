@@ -11,28 +11,16 @@ interface Vehicle {
 }
 export default function SignIn() {
   const vans: Vehicle[] = [
-    { name: "AdriTransportes", type: "van", destiny: "São Paulo" },
-    { name: "DiTransportes", type: "ônibus", destiny: "Rio de Janeiro" },
-    { name: "RiTransportes", type: "van", destiny: "Ubatuba" },
-    { name: "CiTransportes", type: "carro", destiny: "Porto Alegre" },
-    { name: "TriTransportes", type: "caminhão", destiny: "São Paulo" },
-    { name: "TriTransportes", type: "caminhão", destiny: "São Paulo" },
-    { name: "AdriTransportes", type: "van", destiny: "São Paulo" },
-    { name: "DiTransportes", type: "ônibus", destiny: "Rio de Janeiro" },
-    { name: "RiTransportes", type: "van", destiny: "Ubatuba" },
-    { name: "RiTransportes", type: "van", destiny: "Ubatuba" },
-    { name: "RiTransportes", type: "van", destiny: "Ubatuba" },
-    { name: "AdriTransportes", type: "van", destiny: "São Paulo" },
-    { name: "DiTransportes", type: "ônibus", destiny: "Rio de Janeiro" },
-    { name: "RiTransportes", type: "van", destiny: "Ubatuba" },
-    { name: "CiTransportes", type: "carro", destiny: "Porto Alegre" },
-    { name: "TriTransportes", type: "caminhão", destiny: "São Paulo" },
-    { name: "TriTransportes", type: "caminhão", destiny: "São Paulo" },
-    { name: "AdriTransportes", type: "van", destiny: "São Paulo" },
-    { name: "DiTransportes", type: "ônibus", destiny: "Rio de Janeiro" },
-    { name: "RiTransportes", type: "van", destiny: "Ubatuba" },
-    { name: "RiTransportes", type: "van", destiny: "Ubatuba" },
-    { name: "RiTransportes", type: "van", destiny: "Ubatuba" },
+    { name: "Transporte Expresso", type: "van", destiny: "São Paulo" },
+    { name: "Rápido Transporte", type: "ônibus", destiny: "Rio de Janeiro" },
+    { name: "Moto Veloz", type: "moto", destiny: "Curitiba" },
+    { name: "Carro Confortável", type: "carro", destiny: "Belo Horizonte" },
+    { name: "Transporte de Carga", type: "caminhão", destiny: "Porto Alegre" },
+    { name: "Micro-Ônibus Ágil", type: "micro-ônibus", destiny: "Brasília" },
+    { name: "Transporte Escolar Seguro", type: "van", destiny: "Natal" },
+    { name: "Táxi Rápido", type: "táxi", destiny: "Salvador" },
+    { name: "Carro de Luxo", type: "carro", destiny: "Recife" },
+    { name: "Ônibus Turístico", type: "ônibus", destiny: "Fortaleza" },
   ];
 
   const [filteredCards, setFilteredCards] = useState(vans);
@@ -40,7 +28,7 @@ export default function SignIn() {
   const noVehiclesFound = "Nenhum veículo encontrado!";
 
   const receiveSearchBarInfo = (data: string) => {
-    setSearchBarInfo(data);
+    setSearchBarInfo(data.toLowerCase());
   };
 
   useEffect(() => {
@@ -48,7 +36,9 @@ export default function SignIn() {
       setFilteredCards(vans);
       return;
     }
-    setFilteredCards(vans.filter((van) => van.destiny === searchBarInfo));
+    setFilteredCards(
+      vans.filter((van) => van.destiny.toLowerCase() === searchBarInfo)
+    );
   }, [searchBarInfo]);
 
   return (
@@ -57,9 +47,11 @@ export default function SignIn() {
         placeholder="Filtrar por destino..."
         sendSearchBarInfo={receiveSearchBarInfo}
       />
-      <p className="text-center pt-10">
-        {filteredCards.length === 0 && noVehiclesFound}
-      </p>
+
+      {filteredCards.length === 0 && (
+        <p className="text-center pt-10 pb-32"> {noVehiclesFound} </p>
+      )}
+
       <div className="flex max-w-screen-xl mx-auto mt-20 flex-wrap justify-center">
         {filteredCards.map((van, index) => (
           <div className="my-5 mr-5" key={index}>
