@@ -10,7 +10,7 @@ interface Info {
 const Button = (props: Info) => {
   return (
     <Link
-      className={`bg-slate-900 rounded-3xl text-white py-4 ${props.px}`}
+      className={`bg-slate-900  text-white py-4 ${props.px} rounded-md`}
       href={props.href}
     >
       {props.label}
