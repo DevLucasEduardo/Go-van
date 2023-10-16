@@ -4,8 +4,9 @@ import Button from "../components/button";
 export default function Register() {
   return (
     <>
-      <div className="max-w-3xl mx-auto border rounded-xl">
-        <div className="gap-4 flex flex-wrap  justify-between p-10">
+      <h1 className="text-center bold text-3xl">Registrar viagem</h1>
+      <div className="max-w-3xl mx-auto">
+        <div className="gap-4 flex flex-wrap justify-between pb-10 pt-10">
           <Form type="text" id="1" label="Veículo" />
           <Form type="text" id="2" label="Placa" />
           <Form type="text" id="3" label="Local de partida" />
@@ -21,9 +22,9 @@ export default function Register() {
               id="8"
               className="h-10 w-20 mt-2 border rounded focus:outline-none focus:border-sky-500 focus:ring-1 px-2"
             >
-              <option value="" disabled={true}></option>
-              <option value="">Sim</option>
-              <option value="">Não</option>
+              <option value="" disabled={true} selected></option>
+              <option value="sim">Sim</option>
+              <option value="nao">Não</option>
             </select>
           </div>
         </div>
