@@ -6,16 +6,20 @@ interface Search {
 }
 
 const SearchBar = (props: Search) => {
+  // Searched data to be sent to the page
   const [data, setData] = React.useState("");
 
+  // When the input is updated the data is updated too
   const handleChange = ({ target }: any) => {
     setData(target.value);
   };
 
+  // When the button is pressed, the data is sent to the page
   const handleClick = () => {
     props.sendSearchBarInfo(data);
   };
 
+  // When the key enter is pressed in the input, the data is sent to the page
   const handleEnter = (event: any) => {
     if (event.key === "Enter") {
       props.sendSearchBarInfo(data);
