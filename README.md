@@ -1,86 +1,87 @@
-Titulo ou Arte do Projeto
-Versão: 1.0
-Status do Projeto: ✔️ Concluído ⚠️ Espera ❌ Cancelado
-Tópicos
-🔹 Descrição do projeto
+# GoVan
 
-🔹 Funcionalidades
+## Versão: 1.0
 
-🔹 Distribuição
+## Status do Projeto:  ⚠️ Espera
 
-🔹 Pré-requisitos
+## Tópicos
 
-🔹 Como rodar a aplicação
+🔹 [Descrição do projeto](/README.md#descrição-do-projeto)
 
-🔹 Testes realizados
+🔹 [Funcionalidades](/README.md#funcionalidades%EF%B8%8F)
 
-🔹 Banco de Dados
+🔹 [Pré-requisitos](/README.md#pré-requisitos%EF%B8%8F)
 
-🔹 Linguagens, dependências e libs utilizadas
+🔹 [Como rodar a aplicação](/README.md#como-rodar-a-aplicação)
 
-🔹 Novas Recursos
+🔹 [Banco de Dados](/README.md#banco-de-dados%EF%B8%8F)
 
-🔹 Resolvendo problemas
+🔹 [Linguagens, dependências e libs utilizadas](/README.md#linguagens-dependências-e-libs-utilizadas)
 
-🔹 Recursos inseridos
+🔹 [Recursos inseridos](/README.md#recursos-de-inseridos)
 
-🔹 Desenvolvedores/Contribuintes
+🔹 [Desenvolvedores/Contribuintes](/README.md#desenvolvedorescontribuintes-)
 
-🔹 Informações Extras
+## Descrição do projeto
 
-...
+A proposta do projeto "GoVan" é criar e implementar uma solução inovadora de transporte por meio de uma plataforma que resolva os desafios enfrentados ao buscar um meio de locomoção confiável, eficiente e acessível. Deste modo, o projeto visa reduzir o tráfego nas estradas, mitigar os impactos ambientais associados à emissão de poluentes e trazer segurança para os prestadores de serviços e os passageiros.
 
-Insira os tópicos do README em links para facilitar a navegação do leitor
 
-Descrição do projeto
-Descrição breve do projeto compondo um paragrafo ou dois.
+## Funcionalidades ⚙️
 
-Funcionalidades ⚙️
-✔️ Funcionalidade 1
+✔️ Facilitar a integração das operações de transporte, incluindo gestão de motoristas, planejamento de rotas e registro de viagens, para garantir eficiência e eficácia no serviço.
 
-✔️ Funcionalidade 2
+✔️ Cadastro e login de prestadores de serviços
 
-✔️ Funcionalidade 3
+✔️ Criação de novas viagens para que sejam exibidas por possíveis clientes
 
-✔️ Funcionalidade 4
+✔️ Busca por viagens disponíveis
 
-Distribuição
-Link para teste da versão disponibilizada.
+## Pré-requisitos ⚠️
 
-Pré-requisitos ⚠️
-Versão do Android; SDK; Aparelho utilizado para testes.
+Nodejs; Computador.
 
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
-Como rodar a aplicação
-Explicação de como se deve utilizar o projeto.
+## Como rodar a aplicação
 
-Testes realizados
-Utilização de imagens e descrição do qeu foi testado.
+Para rodar a aplicação, siga as instruções abaixo:
 
-Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
+1. Baixe o repositório com a aplicação em seu computador.
+2. Baixe e instale o Nodejs LTS.
+3. Abra o terminal ou prompt de comando e navegue até a pasta do repositório.
+4. Execute o comando **`npm run dev`** para executar o projeto.
+5. Abra **`(http://localhost:3000 )`** em seu navegador para ver o resultado.
 
-Linguagens, dependencias e libs utilizadas 📚
-Android Studio
+Certifique-se de que todas as dependências estejam instaladas corretamente antes de rodar a aplicação. Em caso de dúvidas ou problemas, consulte a documentação oficial do NextJs.
 
-XML ... Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
+## Linguagens, dependências e libs utilizadas 📚
 
-Resolvendo Problemas
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Spring boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=Spring&logoColor=white)
 
-Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
+## Recursos de inseridos 🧰
 
-📝 Tarefa 1
+📝 Sistema para desbloquear o cartão;
+📝 Sistema de recarregamento do cartão.
 
-📝 Tarefa 2
+![image](https://user-images.githubusercontent.com/108158140/230984549-1a79be18-f9a1-4595-a79f-c92f38289e1b.png)
 
-📝 Tarefa 3
+![image](https://user-images.githubusercontent.com/108158140/230984676-98e7b494-bc53-434a-95ea-a102b38a09b3.png)
 
-Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
+## Desenvolvedores/Contribuintes 🤝
 
-Licença
+Daniel Ohata → Gerente de Projeto | [Contato](mailto:daniel.ohata@facens.br)
+
+Anrry Petrin → Pesquisador | [Contato](mailto:anrry.petrin@gmail.com)
+
+Henrique Miranda → Desenvolvedor | [Contato](mailto:henrique.miranda.carvalho@gmail.com) 
+
+Henrique Ribeiro → Designer | [Contato](mailto:henriqueribeiroborgesbusiness@gmail.com) 
+
+Lucas Eduardo → Analista de Qualidade | [Contato](mailto:lukas_junior@hotmail.com)
+
+## Licença
+
 The MIT License (MIT)
 
-Copyright ©️ Ano - Titulo do Projeto
+## Copyright ©️ 2023 - ShanCard
