@@ -56,13 +56,17 @@ Certifique-se de que todas as dependências estejam instaladas corretamente ante
 ## Linguagens, dependências e libs utilizadas 📚
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Spring boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=Spring&logoColor=white)
+![MySQL](https://shields.io/badge/MySQL-lightgrey?logo=mysql&style=plastic&logoColor=white&labelColor=blue)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
+
+
 
 ## Recursos de inseridos 🧰
 
-📝 Sistema para desbloquear o cartão;
-📝 Sistema de recarregamento do cartão.
+📝 Tela de login para clientes;
+📝 Forma de conexão entre clientes e prestadores de serviços.
 
 ![image](https://user-images.githubusercontent.com/108158140/230984549-1a79be18-f9a1-4595-a79f-c92f38289e1b.png)
 
@@ -70,15 +74,21 @@ Certifique-se de que todas as dependências estejam instaladas corretamente ante
 
 ## Desenvolvedores/Contribuintes 🤝
 
-Daniel Ohata → Gerente de Projeto | [Contato](mailto:daniel.ohata@facens.br)
+Adson Alves → Gerente de Projeto | [Contato](mailto:adson.alves@facens.br)
 
-Anrry Petrin → Pesquisador | [Contato](mailto:anrry.petrin@gmail.com)
+Lucas Eduardo Pereira → Desenvolvedor | [Contato](mailto:lucaseduardodev@outlook.com) 
 
-Henrique Miranda → Desenvolvedor | [Contato](mailto:henrique.miranda.carvalho@gmail.com) 
+Anrry → Desenvolvedor | [Contato](mailto:anrry.petrin@gmail.com)
 
-Henrique Ribeiro → Designer | [Contato](mailto:henriqueribeiroborgesbusiness@gmail.com) 
+Jesser → Pesquisador | [Contato](mailto:cjeser99@gmail.com)
 
-Lucas Eduardo → Analista de Qualidade | [Contato](mailto:lukas_junior@hotmail.com)
+André → Designer | [Contato](mailto:andrefranceschini@outlook.com.br)
+
+Sophia → Analista de Qualidade | [Contato](mailto://)
+
+Henrique Ribeiro → Analista de Qualidade | [Contato](mailto:henriqueribeiroborgesbusiness@gmail.com) 
+
+
 
 ## Licença
 
