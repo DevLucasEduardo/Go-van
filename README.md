@@ -68,9 +68,9 @@ Certifique-se de que todas as dependências estejam instaladas corretamente ante
 📝 Tela de login para clientes;
 📝 Forma de conexão entre clientes e prestadores de serviços.
 
-![image](https://user-images.githubusercontent.com/108158140/230984549-1a79be18-f9a1-4595-a79f-c92f38289e1b.png)
+![image](//)
 
-![image](https://user-images.githubusercontent.com/108158140/230984676-98e7b494-bc53-434a-95ea-a102b38a09b3.png)
+![image](//)
 
 ## Desenvolvedores/Contribuintes 🤝
 
@@ -94,4 +94,4 @@ Henrique Ribeiro → Analista de Qualidade | [Contato](mailto:henriqueribeirobor
 
 The MIT License (MIT)
 
-## Copyright ©️ 2023 - ShanCard
+## Copyright ©️ 2023 - GoVan
