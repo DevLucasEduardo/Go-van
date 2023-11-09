@@ -14,8 +14,6 @@
 
 🔹 [Como rodar a aplicação](/README.md#como-rodar-a-aplicação)
 
-🔹 [Banco de Dados](/README.md#banco-de-dados%EF%B8%8F)
-
 🔹 [Linguagens, dependências e libs utilizadas](/README.md#linguagens-dependências-e-libs-utilizadas)
 
 🔹 [Recursos inseridos](/README.md#recursos-de-inseridos)
@@ -29,18 +27,18 @@ A proposta do projeto "GoVan" é criar e implementar uma solução inovadora de 
 
 ## Funcionalidades ⚙️
 
-✔️ Cadastro e login de prestadores de serviços
+✔️ Cadastro e login de prestadores de serviços.
 
-✔️ Criação de novas viagens para que sejam exibidas por possíveis clientes
+✔️ Criação de novas viagens para que sejam exibidas por possíveis clientes.
 
-✔️ Busca por viagens disponíveis
+✔️ Busca por viagens disponíveis.
 
-✔️ Exibição de informações completas de viagens
+✔️ Exibição de informações completas de viagens.
 
 
 ## Pré-requisitos ⚠️
 
-Nodejs; JDK 17 ou superior; Banco de dados MySQL; IDE de preferência; Computador.
+Nodejs; JDK 17 ou superior; Banco de dados MySQL; MyWorkbench; IDE de preferência; Computador.
 
 ## Como rodar a aplicação
 
@@ -54,7 +52,8 @@ Para rodar a aplicação, siga as instruções abaixo:
 6. Abra o terminal ou prompt de comando e navegue até a pasta do repositório.
 7. Execute o comando **`npm run dev`** para executar o projeto.
 8. Abra **`(http://localhost:3000 )`** em seu navegador para ver o resultado.
-9. Rode a aplicação na IDE de preferência e um servidor TomCat será aberto em **`(http://localhost:8080)`**
+9. É necessário criar um banco de dados. Para tanto, no workbench rode o seguinte commando **`CREATE DATABASE IF NOT EXISTS govan;`**. 
+10. Rode a aplicação na IDE de preferência e um servidor TomCat será aberto em **`(http://localhost:8080)`**
 
 Certifique-se de que todas as dependências estejam instaladas corretamente antes de rodar a aplicação. Em caso de dúvidas ou problemas, consulte a documentação oficial do NextJs, Java e MySQL.
 
