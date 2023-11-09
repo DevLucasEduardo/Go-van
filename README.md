@@ -45,7 +45,7 @@ Nodejs; JDK 17 ou superior; Banco de dados MySQL; MyWorkbench; IDE de preferênc
 Para rodar a aplicação, siga as instruções abaixo:
 
 1. Baixe este repositório com a aplicação em seu computador.
-2. Baixe o repositório neste link, o qual contém o back-end do projeto **`https://github.com/DevLucasEduardo/Go-van-back-end`**
+2. Baixe o repositório neste link, o qual contém o back-end do projeto [Go-van-back-end](https://github.com/DevLucasEduardo/Go-van-back-end).
 3. Baixe e instale o Nodejs LTS.
 4. Baixe e instale a JDK 17 ou superior.
 5. Baixe e instale a versão mais atual do banco MySQL e siga a documentação.
