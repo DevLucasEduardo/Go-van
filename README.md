@@ -44,16 +44,18 @@ Nodejs; JDK 17 ou superior; Banco de dados MySQL; MyWorkbench; IDE de preferênc
 
 Para rodar a aplicação, siga as instruções abaixo:
 
-1. Baixe o repositório com a aplicação em seu computador.
-2. Baixe e instale o Nodejs LTS.
-3. Baixe e instale a JDK 17 ou superior.
-4. Baixe e instale a versão mais atual do banco MySQL e siga a documentação.
-5. Defina a variável de ambiente JAVA_HOME e adicione o caminho para o executável Java ao PATH.
-6. Abra o terminal ou prompt de comando e navegue até a pasta do repositório.
-7. Execute o comando **`npm run dev`** para executar o projeto.
-8. Abra **`(http://localhost:3000 )`** em seu navegador para ver o resultado.
-9. É necessário criar um banco de dados. Para tanto, no workbench rode o seguinte commando **`CREATE DATABASE IF NOT EXISTS govan;`**. 
-10. Rode a aplicação na IDE de preferência e um servidor TomCat será aberto em **`(http://localhost:8080)`**
+1. Baixe este repositório com a aplicação em seu computador.
+2. Baixe o repositório neste link, o qual contém o back-end do projeto **`https://github.com/DevLucasEduardo/Go-van-back-end`**
+3. Baixe e instale o Nodejs LTS.
+4. Baixe e instale a JDK 17 ou superior.
+5. Baixe e instale a versão mais atual do banco MySQL e siga a documentação.
+6. Defina a variável de ambiente JAVA_HOME e adicione o caminho para o executável Java ao PATH.
+7. Abra o terminal ou prompt de comando e navegue até a pasta deste repositório.
+8. Execute o comando **`npm run dev`** para executar o projeto.
+9. Abra **`(http://localhost:3000 )`** em seu navegador para ver o resultado.
+10. É necessário criar um banco de dados. Para tanto, no workbench rode o seguinte commando **`CREATE DATABASE IF NOT EXISTS govan;`**.
+11. Abra o terminal ou prompt de comando e navegue até a pasta do **repositório contendo o backend do projeto**.
+12. Rode a aplicação na IDE de preferência e um servidor TomCat será aberto em **`(http://localhost:8080)`**
 
 Certifique-se de que todas as dependências estejam instaladas corretamente antes de rodar a aplicação. Em caso de dúvidas ou problemas, consulte a documentação oficial do NextJs, Java e MySQL.
 
