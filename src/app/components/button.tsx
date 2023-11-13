@@ -5,11 +5,13 @@ interface Info {
   label: string;
   href: string;
   px: string;
+  onClick?: () => void;
 }
 
 const Button = (props: Info) => {
   return (
     <Link
+      onClick={props.onClick}
       className={`bg-slate-900  text-white py-4 ${props.px} rounded-md`}
       href={props.href}
     >

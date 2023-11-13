@@ -5,7 +5,9 @@ import React from "react";
 interface Input {
   type: string;
   id: string;
+  name: string;
   label: string;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 const Form = (props: Input) => {
   return (
@@ -16,7 +18,8 @@ const Form = (props: Input) => {
       <input
         type={props.type}
         id={props.id}
-        name={props.label}
+        name={props.name}
+        onChange={props.onChange}
         className="w-80 h-10 border rounded focus:outline-none focus:border-sky-500 focus:ring-1 px-2"
       />
     </div>
