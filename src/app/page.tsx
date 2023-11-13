@@ -14,7 +14,7 @@ export default function Home() {
         <section className="flex justify-center flex-wrap mb-40">
           <Button
             label="Visualizar transportes disponíveis"
-            href="/find"
+            href="/page-cards"
             px="px-40"
           />
         </section>
