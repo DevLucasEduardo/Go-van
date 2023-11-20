@@ -1,9 +1,11 @@
 import Button from "./components/button";
 import Image from "next/image";
 import van from "./public/images/van.jpg";
+import Header from "./components/header";
 export default function Home() {
   return (
     <>
+      <Header button={true} />
       <div className="max-w-6xl mx-auto">
         <section className="flex justify-center font-bold text-7xl">
           <h1 className="w-9/12 text-center mb-20">
