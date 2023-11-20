@@ -5,9 +5,10 @@ import SearchBar from "../components/search-bar";
 import Card from "../components/card";
 import React, { useEffect, useState } from "react";
 import useFetchData from "../hooks/useFetchData";
+import Header from "../components/header";
 
-export default function SignIn() {
-  const [data, loading, error] = useFetchData("/cards/get");
+export default function Cards() {
+  const [data, loading, error] = useFetchData("/cards/");
 
   const vans = data as CardData[];
 
@@ -41,7 +42,8 @@ export default function SignIn() {
   }, [searchBarInfo]);
 
   return (
-    <div>
+    <>
+      <Header button={true} />
       <SearchBar
         placeholder="Filtrar por destino..."
         sendSearchBarInfo={receiveSearchBarInfo}
@@ -67,6 +69,6 @@ export default function SignIn() {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 }
