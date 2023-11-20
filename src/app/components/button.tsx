@@ -3,7 +3,7 @@ import Link from "next/link";
 
 interface Info {
   label: string;
-  href: string;
+  href: string | {};
   px: string;
   onClick?: () => void;
 }
