@@ -21,10 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={source_Serif_4.className}>
-        <div className="mb-20">
-          <Header />
-        </div>
-
         {children}
         <Footer />
       </body>
