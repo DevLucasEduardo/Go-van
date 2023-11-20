@@ -7,6 +7,7 @@ interface Input {
   id: string;
   name: string;
   label: string;
+  value?: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 const Form = (props: Input) => {
@@ -17,6 +18,7 @@ const Form = (props: Input) => {
       </label>
       <input
         type={props.type}
+        value={props.value}
         id={props.id}
         name={props.name}
         onChange={props.onChange}
